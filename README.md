@@ -5,7 +5,7 @@ A template repository to publish games
 
 
 [Sep 6](WCU-CS-CooperLab/csc476f24-demo-games-GamePublish:main)
-[Sep 11](WCU-CS-CooperLab/csc476f24-demo-games-GamePublish)
+[Sep 11](demo-games-Makbark/SpaceRocksSep11/)
 
 ##Space Rocks
 
