@@ -4,8 +4,9 @@ A template repository to publish games
 ##Class Publishing Demos
 
 ##Project 1
-  [phase 1: ]()
-  [phase 2: ]()
+  [phase 1: ](CoinDash/index.html)
+  
+  [phase 2: ](CoinDash2/index.html)
   
 
 ##Coin Dash
