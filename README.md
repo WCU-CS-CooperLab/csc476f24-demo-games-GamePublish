@@ -3,6 +3,12 @@ A template repository to publish games
 
 ##Class Publishing Demos
 
+##Project 1
+  [phase 1: ]()
+  [phase 2: ]()
+  
+
+##Coin Dash
 
 [Sep 6](WCU-CS-CooperLab/csc476f24-demo-games-GamePublish:main)
 
