@@ -3,10 +3,12 @@ A template repository to publish games
 
 ##Class Publishing Demos
 
-##Project 1
-  [phase 1: ](CoinDash/index.html)
+##Project 1: Coin Dash
+
   
-  [phase 2: ](CoinDash2/index.html)
+  [Phase 1](CoinDash/index.html)
+  
+  [Phase 2](CoinDash2/index.html)
   
 
 ##Coin Dash
