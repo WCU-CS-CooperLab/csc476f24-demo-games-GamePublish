@@ -34,7 +34,7 @@ A template repository to publish games
 -  Create script for when rocks hit each other they bounce off
 
 
-[Sep 18](SpaceRocksSep18/index.html)
+[Sep 18](SpaceRocksSep18)
 -  Create HUD canvas layer
 -  Add HBox containing the score and lives counter
 -  add VBox for the message showing the title of the game and what wave you're on
