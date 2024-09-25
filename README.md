@@ -32,3 +32,11 @@ A template repository to publish games
 -  Create new scene for rocks
 -  Create rock path so rocks can spawn on the border of the screen
 -  Create script for when rocks hit each other they bounce off
+
+
+[Sep 18]()
+-  Create HUD canvas layer
+-  Add HBox containing the score and lives counter
+-  add VBox for the message showing the title of the game and what wave you're on
+-  also add the button to start the game within the same VBox as the message
+-  add instance of HUD to main script to start game when pressing the button an call new game function 
