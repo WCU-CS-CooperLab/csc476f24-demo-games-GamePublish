@@ -39,4 +39,10 @@ A template repository to publish games
 -  Add HBox containing the score and lives counter
 -  add VBox for the message showing the title of the game and what wave you're on
 -  also add the button to start the game within the same VBox as the message
--  add instance of HUD to main script to start game when pressing the button an call new game function 
+-  add instance of HUD to main script to start game when pressing the button an call new game function
+
+[Sep 20]()
+- detect when a player collides with rock and show explosion
+- make player invulnerable after player collides with rock and end game when it happens 3 times
+- 
+- 
