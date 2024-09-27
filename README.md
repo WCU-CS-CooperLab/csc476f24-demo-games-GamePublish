@@ -55,8 +55,4 @@ A template repository to publish games
 
 ##3D Minigolf
 
-[Sep 3]()
-
-- 
-
 
