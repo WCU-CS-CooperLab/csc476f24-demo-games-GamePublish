@@ -34,9 +34,29 @@ A template repository to publish games
 -  Create script for when rocks hit each other they bounce off
 
 
-[Sep 18]()
+[Sep 18](SpaceRocksSep18)
 -  Create HUD canvas layer
 -  Add HBox containing the score and lives counter
 -  add VBox for the message showing the title of the game and what wave you're on
 -  also add the button to start the game within the same VBox as the message
--  add instance of HUD to main script to start game when pressing the button an call new game function 
+-  add instance of HUD to main script to start game when pressing the button and call new game function
+
+[Sep 20]()
+- detect when a player collides with rock and show explosion
+- make player invulnerable after player collides with rock and end game when it happens 3 times
+- add and enemy with 3 different color variations randomly selecting from on of the three when it spawns in
+- add multiple paths that the enemy will take when spawning in
+- add enemy lasers that shoot at the player
+- add collisions to the player and enemy and for the enemy's bullet to the player
+- create a health bar in hud displaying the players heath making it change when player takes damage
+- add sounds for players engine sound, lasers, when rock explodes, and for the enemies lasers and when the enemy explodes
+- create particle path for the player's and enemies exhaust
+
+
+##3D Minigolf
+
+[Sep 3]()
+
+- 
+
+
