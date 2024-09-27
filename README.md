@@ -44,7 +44,13 @@ A template repository to publish games
 [Sep 20]()
 - detect when a player collides with rock and show explosion
 - make player invulnerable after player collides with rock and end game when it happens 3 times
-- 
+- add and enemy with 3 different color variations randomly selecting from on of the three when it spawns in
+- add multiple paths that the enemy will take when spawning in
+- add enemy lasers that shoot at the player
+- add collisions to the player and enemy and for the enemy's bullet to the player
+- create a health bar in hud displaying the players heath making it change when player takes damage
+- add sounds for players engine sound, lasers, when rock explodes, and for the enemies lasers and when the enemy explodes
+- create particle path for the player's and enemies exhaust
 
 
 ##3D Minigolf
