@@ -41,7 +41,7 @@ A template repository to publish games
 -  also add the button to start the game within the same VBox as the message
 -  add instance of HUD to main script to start game when pressing the button and call new game function
 
-[Sep 20]()
+[Sep 20](SpaceRocksSep20)
 - detect when a player collides with rock and show explosion
 - make player invulnerable after player collides with rock and end game when it happens 3 times
 - add and enemy with 3 different color variations randomly selecting from on of the three when it spawns in
