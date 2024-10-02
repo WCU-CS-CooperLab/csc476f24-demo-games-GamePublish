@@ -56,7 +56,7 @@ A template repository to publish games
 ##3D Minigolf
 
 
-##Jungle JUmp
+##Jungle Jump
 
 [Sep30](JungleJumpSep30/index.html)
 - turned of texture filtering to make game look more clear
