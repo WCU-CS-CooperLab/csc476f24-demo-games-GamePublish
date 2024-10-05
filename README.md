@@ -56,3 +56,13 @@ A template repository to publish games
 ##3D Minigolf
 
 
+##Jungle Jump
+
+[Sep30](JungleJumpSep30/index.html)
+- turned of texture filtering to make game look more clear
+- add characterbody2d for the player node
+- created animation with sprite sheet
+- created player collision shape
+- added player script to deal woth player movement and changing each state to corresponding animation
+- added collisionshape to main scene to act as ground to test player movement 
+
