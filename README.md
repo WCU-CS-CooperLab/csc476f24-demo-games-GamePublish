@@ -8,7 +8,7 @@ A template repository to publish games
   
   [Phase 1](CoinDash/index.html)
   
-  [Phase 2](CoinDash2/index.html)
+  [Phase 2](CoinDash2/CoinDash2Update/index.html)
   
 
 ##Coin Dash
