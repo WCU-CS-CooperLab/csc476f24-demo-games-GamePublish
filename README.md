@@ -66,3 +66,10 @@ A template repository to publish games
 - added player script to deal woth player movement and changing each state to corresponding animation
 - added collisionshape to main scene to act as ground to test player movement 
 
+[Oct2](JunlgeJumpOct2/index.html)
+- add new base level script to act as parent for other levels
+- add spawn marker, world, item, and danger tilesets.
+- create item node for item animations and collisions
+- create level 1 with world tileset and danger tileset
+- use item tileset as spawnpoints for the item nodes
+- add parallax layer for middle background and back background to create depth in visual gameplay
