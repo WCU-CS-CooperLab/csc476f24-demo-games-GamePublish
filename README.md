@@ -6,7 +6,7 @@ A template repository to publish games
 ##Project 1: Coin Dash
 
   
-  [Phase 1](CoinDash/index.html)
+  [Phase 1](CoinDash/CoinDashUpdate/index.html)
   
   [Phase 2](CoinDash2/CoinDash2Update/index.html)
   
