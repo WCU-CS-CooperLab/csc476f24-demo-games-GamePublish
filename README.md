@@ -58,7 +58,7 @@ A template repository to publish games
 
 ##Jungle Jump
 
-[Sep30](JungleJumpSep30/index.html)
+[Sep 30](JungleJumpSep30/index.html)
 - turned of texture filtering to make game look more clear
 - add characterbody2d for the player node
 - created animation with sprite sheet
@@ -66,10 +66,22 @@ A template repository to publish games
 - added player script to deal woth player movement and changing each state to corresponding animation
 - added collisionshape to main scene to act as ground to test player movement 
 
-[Oct2](JunlgeJumpOct2/index.html)
+[Oct 2](JunlgeJumpOct2/index.html)
 - add new base level script to act as parent for other levels
 - add spawn marker, world, item, and danger tilesets.
 - create item node for item animations and collisions
 - create level 1 with world tileset and danger tileset
 - use item tileset as spawnpoints for the item nodes
 - add parallax layer for middle background and back background to create depth in visual gameplay
+[Oct 9]()
+- added Parallax Backgound to create scrolling background
+- added a mid background for the jungle and a back background for the sky
+- created scrolling effect where mid background scrolls more than back background to create depth effect
+- added enemy using character body 2d
+- added animation to enemy for walking and when exploding when the player jumps on enemy
+- in enemy script added effect that makes enemys bounce off environment when changing direction
+- added game ui for points when collecting gems and cherries and hearts for playr's life count
+- created title screen displaying the title and "press space to play"
+- created main scene to automatically load in when running the game in order to load the current level
+- created a door scene to signal then end of a level and created a script that would change the level once the player's body touched the door scene
+- anded soundeffects and theme songs along with a couple more features like doublejumping and moving platforms
