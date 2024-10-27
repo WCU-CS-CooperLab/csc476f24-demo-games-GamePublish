@@ -73,7 +73,8 @@ A template repository to publish games
 - create level 1 with world tileset and danger tileset
 - use item tileset as spawnpoints for the item nodes
 - add parallax layer for middle background and back background to create depth in visual gameplay
-[Oct 9]()
+
+[Oct 9](JungleJumpOct11/index.html)
 - added Parallax Backgound to create scrolling background
 - added a mid background for the jungle and a back background for the sky
 - created scrolling effect where mid background scrolls more than back background to create depth effect
