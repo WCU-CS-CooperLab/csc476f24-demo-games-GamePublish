@@ -9,7 +9,11 @@ A template repository to publish games
   [Phase 1](CoinDash/CoinDashUpdate/index.html)
   
   [Phase 2](CoinDash2/CoinDash2Update/index.html)
-  
+
+##Project 2: Minigolf
+
+[Phase 1]()
+[Phase 2]()
 
 ##Coin Dash
 
