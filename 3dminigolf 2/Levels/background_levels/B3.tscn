@@ -1,0 +1,39 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwdj2yhbb7njb"]
+
+[ext_resource type="PackedScene" uid="uid://dtsljussduhax" path="res://base_hole.tscn" id="1_tfkl2"]
+
+[node name="Course" instance=ExtResource("1_tfkl2")]
+script = null
+
+[node name="GridMap" parent="." index="0"]
+data = {
+"cells": PackedInt32Array(0, 2, 23, 0, 1, 24, 0, 0, 21, 1, 0, 655366, 65535, 0, 1048596, 65535, 65535, 1048593, 1, 65535, 27, 0, 65535, 13, 65534, 65535, 20, 65534, 65534, 3, 1, 65534, 1441795, 0, 65534, 1441812, 65535, 65534, 1048589, 65535, 65533, 655396, 65535, 65532, 655361, 65534, 0, 1048581)
+}
+
+[node name="CollisionShape3D" parent="Hole" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.503569, 0.441959, -3.47504)
+
+[node name="HoleBody" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="RigidBody3D" parent="HoleBody" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.513569, 0.417045, -3.47504)
+
+[node name="CollisionShape3D" parent="HoleBody" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.513569, 0.417045, -3.47504)
+
+[node name="Ball" parent="." index="4"]
+script = null
+
+[node name="Arrow" parent="." index="7"]
+visible = false
+
+[node name="UI" parent="." index="8"]
+visible = false
+script = null
+
+[node name="CameraGimbal" parent="." index="9"]
+script = null
+
+[node name="PauseMenu" parent="." index="12"]
+script = null

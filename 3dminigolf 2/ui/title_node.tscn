@@ -1,0 +1,39 @@
+[gd_scene load_steps=8 format=3 uid="uid://b23ygraknmvov"]
+
+[ext_resource type="Script" path="res://ui/title_node.gd" id="1_dfqsi"]
+[ext_resource type="PackedScene" uid="uid://dp43im6rliioy" path="res://ui/title_screen.tscn" id="1_xypeb"]
+[ext_resource type="PackedScene" uid="uid://cl563s8nbb0vp" path="res://title_screen_gimbal.tscn" id="3_bfoyd"]
+[ext_resource type="PackedScene" uid="uid://duds5hwt8bxqd" path="res://Levels/background_levels/B1.tscn" id="4_cng1y"]
+[ext_resource type="PackedScene" uid="uid://bwoj8wljb25x0" path="res://Levels/background_levels/B2.tscn" id="5_8fpjp"]
+[ext_resource type="PackedScene" uid="uid://bwdj2yhbb7njb" path="res://Levels/background_levels/B3.tscn" id="6_qpk3x"]
+[ext_resource type="PackedScene" uid="uid://cvittux3w1qdf" path="res://Levels/background_levels/B4.tscn" id="7_4qrnx"]
+
+[node name="Title Node" type="Node3D"]
+script = ExtResource("1_dfqsi")
+
+[node name="Title Screen" parent="." instance=ExtResource("1_xypeb")]
+script = null
+
+[node name="CameraGimbal" parent="." instance=ExtResource("3_bfoyd")]
+transform = Transform3D(1, 0, 0, 0, 0.937962, 0.346739, 0, -0.346739, 0.937962, 0.967228, 1.09144, 1.7768)
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 3.5
+autostart = true
+
+[node name="Background" type="Node3D" parent="."]
+
+[node name="Course" parent="Background" instance=ExtResource("4_cng1y")]
+visible = false
+
+[node name="Course2" parent="Background" instance=ExtResource("5_8fpjp")]
+visible = false
+
+[node name="Course3" parent="Background" instance=ExtResource("6_qpk3x")]
+visible = false
+
+[node name="Course4" parent="Background" instance=ExtResource("7_4qrnx")]
+visible = false
+
+[connection signal="ready" from="." to="." method="_on_ready"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

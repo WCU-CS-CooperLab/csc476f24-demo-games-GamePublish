@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://baq11fhf34jno"]
+
+[ext_resource type="PackedScene" uid="uid://dtsljussduhax" path="res://base_hole.tscn" id="1_mnuvj"]
+
+[node name="Course" instance=ExtResource("1_mnuvj")]
+
+[node name="GridMap" parent="." index="0"]
+data = {
+"cells": PackedInt32Array(0, 2, 22, 0, 1, 24, 0, 0, 34, 0, 65535, 24, 0, 65534, 21, 1, 65534, 1441798, 65535, 65534, 6, 1, 65535, 1048581, 65535, 65535, 655365, 65534, 65535, 1048579, 2, 65535, 655363, 65534, 65534, 655379, 2, 65534, 655378, 3, 65534, 655374, 65533, 65534, 655374, 65534, 65533, 1048593, 65533, 65533, 1048590, 1, 65533, 1048590, 65535, 65533, 1048590, 3, 65533, 1048590, 2, 65533, 1048591, 0, 65533, 1048592, 2, 65532, 1441797, 65534, 65532, 5, 1, 65532, 1441818, 65535, 65532, 1441821, 0, 65532, 1441812)
+}
+
+[node name="CollisionShape3D" parent="Hole" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.504934, 0.446218, -2.49558)
+
+[node name="HoleBody" parent="." index="2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+
+[node name="RigidBody3D" parent="HoleBody" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.504934, 0.421456, -2.49558)
+
+[node name="CollisionShape3D" parent="HoleBody" index="1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.504934, 0.421456, -2.49558)

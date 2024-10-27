@@ -1,0 +1,61 @@
+[gd_scene load_steps=7 format=3 uid="uid://dyll46ikfpr70"]
+
+[ext_resource type="FontFile" uid="uid://b8kdhdatftj5y" path="res://assets/Xolonium-Regular.ttf" id="1_hldru"]
+[ext_resource type="Script" path="res://ui.gd" id="1_okl33"]
+[ext_resource type="Texture2D" uid="uid://b5qlhmg350x57" path="res://assets/bar_green.png" id="2_1p4tb"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_4paae"]
+font = ExtResource("1_hldru")
+font_size = 30
+
+[sub_resource type="LabelSettings" id="LabelSettings_2sxyc"]
+font = ExtResource("1_hldru")
+font_size = 30
+
+[sub_resource type="LabelSettings" id="LabelSettings_kcbrh"]
+font_size = 40
+
+[node name="UI" type="CanvasLayer"]
+script = ExtResource("1_okl33")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+
+[node name="Shots" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Shots: 0"
+label_settings = SubResource("LabelSettings_4paae")
+
+[node name="PowerBar" type="TextureProgressBar" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+value = 50.0
+fill_mode = 3
+texture_progress = ExtResource("2_1p4tb")
+
+[node name="PowerLabel" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Power
+"
+label_settings = SubResource("LabelSettings_2sxyc")
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Message" type="Label" parent="MarginContainer2"]
+layout_mode = 2
+text = "
+"
+label_settings = SubResource("LabelSettings_kcbrh")
+horizontal_alignment = 1

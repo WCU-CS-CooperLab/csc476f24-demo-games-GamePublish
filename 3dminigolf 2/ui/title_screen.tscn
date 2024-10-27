@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://dp43im6rliioy"]
+
+[sub_resource type="GDScript" id="GDScript_rtqb5"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_x5wa2"]
+line_spacing = 100.0
+font_size = 100
+
+[sub_resource type="LabelSettings" id="LabelSettings_j8rpj"]
+font_size = 30
+
+[node name="Title Screen" type="CanvasLayer"]
+script = SubResource("GDScript_rtqb5")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 283.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 150
+
+[node name="Title" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "MiniGolf"
+label_settings = SubResource("LabelSettings_x5wa2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Message" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Press Space to Play
+"
+label_settings = SubResource("LabelSettings_j8rpj")
+horizontal_alignment = 1
+vertical_alignment = 2

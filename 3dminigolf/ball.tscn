@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://sp6fvy7v373x"]
+
+[ext_resource type="Script" path="res://ball.gd" id="1_4u6mk"]
+[ext_resource type="Texture2D" uid="uid://udysi16s6s1p" path="res://assets/ball_normal_map.png" id="2_5yunw"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_6utru"]
+albedo_color = Color(0.986861, 0.97156, 0.997507, 1)
+normal_enabled = true
+normal_scale = -0.94
+normal_texture = ExtResource("2_5yunw")
+
+[sub_resource type="SphereMesh" id="SphereMesh_y8eh4"]
+material = SubResource("StandardMaterial3D_6utru")
+radius = 0.05
+height = 0.1
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_hreo5"]
+radius = 0.05
+
+[node name="Ball" type="RigidBody3D"]
+script = ExtResource("1_4u6mk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_y8eh4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_hreo5")
