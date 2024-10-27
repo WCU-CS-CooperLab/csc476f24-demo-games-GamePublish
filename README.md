@@ -13,7 +13,8 @@ A template repository to publish games
 ##Project 2: Minigolf
 
 [Phase 1](Minigolf/index.html)
-[Phase 2]()
+
+[Phase 2](Minigolf2/index.html)
 
 ##Coin Dash
 
