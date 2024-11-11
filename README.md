@@ -91,5 +91,15 @@ A template repository to publish games
 - created a door scene to signal then end of a level and created a script that would change the level once the player's body touched the door scene
 - anded soundeffects and theme songs along with a couple more features like doublejumping and moving platforms
 
+## Infinite Flyer 
+
+[Oct 11]()
+- Added character body 3d for plane scene
+- imported plane node from assests
+- created collision shape 3d cylinder for plane body
+- created collision shape 3d rectangle for wings
+
+
+
 ## Team project 1
 [Bridge Quest](TeamProject1/index.html)
