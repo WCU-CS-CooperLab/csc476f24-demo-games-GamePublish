@@ -93,7 +93,7 @@ A template repository to publish games
 
 ## Infinite Flyer 
 
-[Oct 11]()
+[Oct 11](InfiniteFlyerOct11/index.html)
 - Added character body 3d for plane scene
 - imported plane node from assests
 - created collision shape 3d cylinder for plane body
