@@ -4,7 +4,6 @@ A template repository to publish games
 ##Class Publishing Demos
 
 ##Project 1: Coin Dash
-
   
   [Phase 1](CoinDash/CoinDashUpdate/index.html)
   
@@ -12,8 +11,9 @@ A template repository to publish games
 
 ##Project 2: Minigolf
 
-[Phase 1]()
-[Phase 2]()
+[Phase 1](Minigolf/index.html)
+
+[Phase 2](Minigolf2/index.html)
 
 ##Coin Dash
 
@@ -90,3 +90,5 @@ A template repository to publish games
 - created main scene to automatically load in when running the game in order to load the current level
 - created a door scene to signal then end of a level and created a script that would change the level once the player's body touched the door scene
 - anded soundeffects and theme songs along with a couple more features like doublejumping and moving platforms
+
+## [Team project 1 Key Quest]()
