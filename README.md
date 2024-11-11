@@ -91,4 +91,4 @@ A template repository to publish games
 - created a door scene to signal then end of a level and created a script that would change the level once the player's body touched the door scene
 - anded soundeffects and theme songs along with a couple more features like doublejumping and moving platforms
 
-## [Team project 1 Key Quest](Team Project 1/index.html)
+[Team project 1 Key Quest](Team Project 1/index.html)
