@@ -99,6 +99,10 @@ A template repository to publish games
 - created collision shape 3d cylinder for plane body
 - created collision shape 3d rectangle for wings
 
+[Oct 16](InfiniteFlyerOct11/index.html)
+- added 5 buidling scenes
+- imported building meshes and added collisions
+- created a chunk scene to load in during gameplay 
 
 
 ## Team project 1
