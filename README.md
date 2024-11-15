@@ -104,7 +104,14 @@ A template repository to publish games
 - imported building meshes and added collisions
 - created a chunk scene to load in during gameplay
 
-  [Oct 18]()
+[Oct 18](infiniteflyerOct18/index.html)
+-  Created main scene adding all elements like plane chunck and rings
+-  (tried to import sky but engine crashed every time i loaded it in
+-  created logic to spawn new chuncks
+-  added animation and collision for when plane collided w buildings and ground
+-  add fuel system and score created title screen that displayed high score
+-  created logic for retriving and saving high score 
+  
 
 
 ## Team project 1
