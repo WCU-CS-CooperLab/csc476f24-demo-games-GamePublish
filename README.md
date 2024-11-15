@@ -3,24 +3,24 @@ A template repository to publish games
 
 ##Class Publishing Demos
 
-##Project 1: Coin Dash
+## Project 1: Coin Dash
   
   [Phase 1](CoinDash/CoinDashUpdate/index.html)
   
   [Phase 2](CoinDash2/CoinDash2Update/index.html)
 
-##Project 2: Minigolf
+## Project 2: Minigolf
 
 [Phase 1](Minigolf/index.html)
 
 [Phase 2](Minigolf2/index.html)
 
-##Coin Dash
+## Coin Dash
 
 [Sep 6](WCU-CS-CooperLab/csc476f24-demo-games-GamePublish:main)
 
 
-##Space Rocks
+## Space Rocks
 
 [Sep 11](demo-games-Makbark/SpaceRocksSep11/)
 -  Create screen wrap and shooting
@@ -57,10 +57,10 @@ A template repository to publish games
 - create particle path for the player's and enemies exhaust
 
 
-##3D Minigolf
+## 3D Minigolf
 
 
-##Jungle Jump
+## Jungle Jump
 
 [Sep 30](JungleJumpSep30/index.html)
 - turned of texture filtering to make game look more clear
@@ -93,12 +93,16 @@ A template repository to publish games
 
 ## Infinite Flyer 
 
-[Oct 11]()
+[Oct 11](InfiniteFlyerOct11/index.html)
 - Added character body 3d for plane scene
 - imported plane node from assests
 - created collision shape 3d cylinder for plane body
 - created collision shape 3d rectangle for wings
 
+[Oct 16](InfiniteFlyerOct11/index.html)
+- added 5 buidling scenes
+- imported building meshes and added collisions
+- created a chunk scene to load in during gameplay 
 
 
 ## Team project 1
