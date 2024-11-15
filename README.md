@@ -102,7 +102,9 @@ A template repository to publish games
 [Oct 16](InfiniteFlyerOct11/index.html)
 - added 5 buidling scenes
 - imported building meshes and added collisions
-- created a chunk scene to load in during gameplay 
+- created a chunk scene to load in during gameplay
+
+  [Oct 18]()
 
 
 ## Team project 1
