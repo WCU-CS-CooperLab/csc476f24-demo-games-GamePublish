@@ -15,6 +15,11 @@ A template repository to publish games
 
 [Phase 2](Minigolf2/index.html)
 
+## Project 3: SpaceRocks2
+
+[Phase 1]()
+[Phase 2](SpaceRocks2/Update 1/index.html)
+
 ## Coin Dash
 
 [Sep 6](WCU-CS-CooperLab/csc476f24-demo-games-GamePublish:main)
