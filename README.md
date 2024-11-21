@@ -21,6 +21,11 @@ A template repository to publish games
 
 [Phase 2](SpaceRocks2/Update1/index.html)
 
+## Team project 1
+[Bridge Quest](TeamProject1/update1/index.html)
+
+
+
 ## Coin Dash
 
 [Sep 6](WCU-CS-CooperLab/csc476f24-demo-games-GamePublish:main)
@@ -120,5 +125,4 @@ A template repository to publish games
   
 
 
-## Team project 1
-[Bridge Quest](TeamProject1/index.html)
+
