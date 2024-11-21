@@ -18,7 +18,7 @@ A template repository to publish games
 ## Project 3: SpaceRocks2
 
 [Phase 1]()
-[Phase 2](SpaceRocks2/Update 1/index.html)
+[Phase 2](SpaceRocks2/Update1/index.html)
 
 ## Coin Dash
 
