@@ -13,7 +13,7 @@ A template repository to publish games
 
 [Phase 1](Minigolf/index.html)
 
-[Phase 2]([Minigolf2/Update1/index.html](https://wcu-cs-cooperlab.github.io/demo-games-Makbark/Minigolf2/Update1/index.html))
+[Phase 2](https://wcu-cs-cooperlab.github.io/demo-games-Makbark/Minigolf2/Update1/index.html)
 
 ## Project 3: SpaceRocks2
 
