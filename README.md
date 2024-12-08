@@ -11,7 +11,7 @@ A template repository to publish games
 
 ## Project 2: Minigolf
 
-[Phase 1](Minigolf/index.html)
+[Phase 1](Minigolf/update1/index.html)
 
 [Phase 2](Minigolf2/Update1/index.html)
 ## Project 3: SpaceRocks2
