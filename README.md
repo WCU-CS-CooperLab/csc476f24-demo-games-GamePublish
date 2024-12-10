@@ -20,6 +20,10 @@ A template repository to publish games
 
 [Phase 2](SpaceRocks2/Update1/index.html)
 
+## Project 4: Drift Game
+
+[Play](driftgame/index.html)
+
 ## Team project 1
 [Bridge Quest](TeamProject1/update1/index.html)
 
