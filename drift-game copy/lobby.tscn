@@ -1,0 +1,92 @@
+[gd_scene load_steps=8 format=3 uid="uid://dg5usup0fa627"]
+
+[ext_resource type="Script" path="res://lobby.gd" id="1_1tpvr"]
+[ext_resource type="PackedScene" uid="uid://blskm5dspisxq" path="res://Player/BluePlayer.tscn" id="2_iw8hv"]
+[ext_resource type="Texture2D" uid="uid://blenomnmpucer" path="res://assets/cars/png/car_05_v2.png" id="2_s8tn2"]
+[ext_resource type="Texture2D" uid="uid://dlomirpt3t0g6" path="res://assets/cars/png/car_04.png" id="3_u7dbq"]
+[ext_resource type="Texture2D" uid="uid://b4ntefw34t157" path="res://assets/cars/png/car_07_v2.png" id="4_hktbw"]
+[ext_resource type="Texture2D" uid="uid://d3h4hswianih5" path="res://assets/cars/png/car_34_v2.png" id="5_pwt16"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_5udkl"]
+font_size = 40
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_1tpvr")
+game_sene = "res://Levels/level_base.tscn"
+blue_car_scene = ExtResource("2_iw8hv")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1594.0
+offset_top = -794.0
+offset_right = 3634.0
+offset_bottom = 3072.0
+color = Color(0.511259, 0.511259, 0.511259, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="StartButton" type="Button" parent="CanvasLayer"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -88.0
+offset_top = -312.0
+offset_right = 92.0
+offset_bottom = -237.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Start Game
+"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.474
+anchor_right = 0.5
+anchor_bottom = 0.474
+offset_left = -672.0
+offset_top = -207.92
+offset_right = 1570.0
+offset_bottom = 480.08
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.6, 0.6)
+theme_override_constants/separation = 150
+
+[node name="BlueCar" type="Button" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+icon = ExtResource("2_s8tn2")
+
+[node name="RedCar" type="Button" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+icon = ExtResource("3_u7dbq")
+
+[node name="YellowCar" type="Button" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+icon = ExtResource("4_hktbw")
+
+[node name="GreenCar" type="Button" parent="CanvasLayer/HBoxContainer"]
+layout_mode = 2
+icon = ExtResource("5_pwt16")
+
+[node name="Label" type="Label" parent="CanvasLayer"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 100.0
+offset_right = 20.0
+offset_bottom = 123.0
+grow_horizontal = 2
+text = "Choose your car"
+label_settings = SubResource("LabelSettings_5udkl")
+
+[connection signal="pressed" from="CanvasLayer/StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/BlueCar" to="." method="_on_blue_car_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/RedCar" to="." method="_on_red_car_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/YellowCar" to="." method="_on_yellow_car_pressed"]
+[connection signal="pressed" from="CanvasLayer/HBoxContainer/GreenCar" to="." method="_on_green_car_pressed"]

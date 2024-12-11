@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://p6dxdb4qxav2"]
+
+[ext_resource type="Script" path="res://server_client_hub.gd" id="1_u3qrm"]
+
+[node name="ServerClientHub" type="Node"]
+script = ExtResource("1_u3qrm")
+server_scene = "res://Server/server.tscn"
+client_scene = "res://main_menu.tscn"
+
+[node name="ServerButton" type="Button" parent="."]
+offset_left = 343.0
+offset_top = 315.0
+offset_right = 400.0
+offset_bottom = 346.0
+text = "server"
+
+[node name="ClientButton" type="Button" parent="."]
+offset_left = 604.0
+offset_top = 321.0
+offset_right = 655.0
+offset_bottom = 352.0
+text = "client"
+
+[connection signal="pressed" from="ServerButton" to="." method="_on_server_button_pressed"]
+[connection signal="pressed" from="ClientButton" to="." method="_on_client_button_pressed"]
