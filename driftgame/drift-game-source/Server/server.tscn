@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=3 uid="uid://kodgapyyhatu"]
+
+[ext_resource type="Script" path="res://Server/server.gd" id="1_irxor"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_irxor")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -1594.0
+offset_top = -794.0
+offset_right = 3634.0
+offset_bottom = 3072.0
+color = Color(0.511259, 0.511259, 0.511259, 1)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="StartButton" type="Button" parent="CanvasLayer"]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -48.0
+offset_top = -380.0
+offset_right = 48.0
+offset_bottom = -305.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Start Game
+"
+
+[node name="PlayersContainer" type="ScrollContainer" parent="CanvasLayer"]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -157.0
+offset_top = -133.0
+offset_right = 158.0
+offset_bottom = 133.0
+grow_horizontal = 2
+grow_vertical = 2
+follow_focus = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer/PlayersContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="PlayerLabel" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel2" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel3" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel4" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel5" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel6" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel7" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel8" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
+
+[node name="PlayerLabel9" type="Label" parent="CanvasLayer/PlayersContainer/VBoxContainer"]
+layout_mode = 2
+text = "player"
